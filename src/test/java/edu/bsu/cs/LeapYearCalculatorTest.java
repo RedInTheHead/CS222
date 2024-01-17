@@ -7,7 +7,7 @@ public class LeapYearCalculatorTest {
     @Test
     public void test2024isLeapYear(){
         LeapYearCalculator leapYear = new LeapYearCalculator();
-        boolean result = leapYear.isLeapYear(2024);
+        boolean result = leapYear.isLeapYear(2025);
         Assertions.assertTrue(result);
 
     }
